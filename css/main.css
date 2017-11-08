@@ -1,0 +1,136 @@
+
+* {
+margin: 0;
+padding: 0;
+}
+
+
+html {
+
+    position: relative; 
+    min-height: 100%;
+}
+
+.imagen-fondo{
+
+	background-image:url(../img/iblard.jpg);
+	background-repeat: no-repeat;
+	background-size:100%;
+	
+}
+
+
+.write {
+	float-left;
+}
+
+.box-white {
+	width: 25%;
+	height: 300px;
+	border-radius: 10px;
+	background-color: #fff;
+	float:left;	
+	margin-left: 180px;
+	
+}
+
+.titulo {
+	color: #FFF;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 700;
+	text-align: center;
+
+}
+
+.navmenu {
+	background-color: #1DA1F2;
+	margin-bottom: 50px;
+	height: 90px;
+}
+
+p {
+ margin: 15px;
+}
+
+
+.cod {
+	font-size: 20px;
+	color:#1DA1F2;
+}
+
+textarea {
+	width: 25%;
+	height: 240px;
+	color: #4E4D53;
+	font-size: 15px;
+	padding: 30px;
+	border-radius: 10px;
+	border: -1px;
+	margin-bottom: 10px;
+	margin-left: 317px;
+	overflow: scroll;
+	overflow-x: hidden;
+
+}
+
+
+#cont {
+	border-radius: 10px;
+	width: 51em;
+	margin: 0 auto;
+	color: #4E4D53;
+	text-align: left;
+	margin-bottom: 6em;
+}
+
+#cont span {
+	margin-left: 1em;
+}
+
+#cont div {
+	padding: 1em 0.5em;
+	margin-bottom: 2em;
+	outline: 0.1em solid #E5E3F2;
+	background-color: #FFF;
+}
+
+button {
+	float-right:150px;
+
+}
+
+
+
+#btn {
+	background-color: #1DA1F2;
+	border-radius: 10px;	
+	border: none;
+	cursor: pointer;
+	margin-bottom: 20px;
+	width: 130px;
+	height:30px;
+	
+}
+
+#btn:hover {
+	background-color: #167EBF; 
+}
+
+
+.heart, .trash {
+	margin:1em;
+	float: right;
+}
+
+.fa-heart:hover {
+	color: red;
+	cursor: pointer;
+}
+
+
+
+.trash:hover {
+	color: #1DA1F2;
+	cursor: pointer;
+}
+
