@@ -1,6 +1,6 @@
 var boton = document.getElementById('btn');
 
- boton.addEventListener('click', function (){
+    boton.addEventListener('click', function (){
 	//tenemos que tomar el texto ingresado en el textarea
 	var comments = document.getElementById('comment').value;
 
@@ -44,12 +44,16 @@ var boton = document.getElementById('btn');
 
 	document.getElementById('btn').value ='red';
 	fa-heart.onclick('red');
+	
+	var d = new Date();
+    var fecha =d.toLocaleTimesString();
+
 
 })
 
-// Para el contador 
+ // Para el contador 
 	var inText = document.getElementById('comment');
 	inText.onkeyup = function(){
-		document.getElementById('wordCount').innerHTML = 'character left:'
+		document.getElementById('wordCount').innerHTML =
 		+ (140 - this.value.length);
 	};

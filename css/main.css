@@ -22,23 +22,35 @@ html {
 
 .write {
 	float-left;
+	width: 25%
+	height: 100px;
+	display: inline-block;
 }
 
 .box-white {
 	width: 25%;
-	height: 300px;
+	height: 200px;
 	border-radius: 10px;
 	background-color: #fff;
 	float:left;	
 	margin-left: 180px;
+	display: inline-block;
 	
+}
+ 
+hr {
+	color:#1DA1F2;
+	border: 1px solid ;
+
 }
 
 .titulo {
-	color: #FFF;
+	color: #fff;
 	font-family: 'Oswald', sans-serif;
 	font-weight: 700;
 	text-align: center;
+	
+
 
 }
 
@@ -59,15 +71,14 @@ p {
 }
 
 textarea {
-	width: 25%;
-	height: 240px;
+	width: 65%;
+	height: 140px;
 	color: #4E4D53;
 	font-size: 15px;
 	padding: 30px;
 	border-radius: 10px;
-	border: -1px;
 	margin-bottom: 10px;
-	margin-left: 317px;
+	margin-left: 243px;
 	overflow: scroll;
 	overflow-x: hidden;
 
@@ -81,6 +92,7 @@ textarea {
 	color: #4E4D53;
 	text-align: left;
 	margin-bottom: 6em;
+
 }
 
 #cont span {
@@ -92,11 +104,13 @@ textarea {
 	margin-bottom: 2em;
 	outline: 0.1em solid #E5E3F2;
 	background-color: #FFF;
+	border-radius: 15px;
 }
 
-button {
-	float-right:150px;
-
+div#wordCount {
+	color:#fff;
+	margin-left: 1050px;
+	font-weight: bolder;
 }
 
 
@@ -109,6 +123,7 @@ button {
 	margin-bottom: 20px;
 	width: 130px;
 	height:30px;
+	margin-left: 1000px;
 	
 }
 
@@ -134,3 +149,7 @@ button {
 	cursor: pointer;
 }
 
+.cont-right{
+	width: 25%;
+	height: 240px;
+}
