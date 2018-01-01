@@ -1,14 +1,13 @@
 
 * {
-margin: 0;
-padding: 0;
+	margin: 0;
+	padding: 0;
 }
-
 
 html {
 
-    position: relative; 
-    min-height: 100%;
+  position: relative;
+  min-height: 100%;
 }
 
 .imagen-fondo{
@@ -32,12 +31,12 @@ html {
 	height: 200px;
 	border-radius: 10px;
 	background-color: #fff;
-	float:left;	
+	float:left;
 	margin-left: 180px;
 	display: inline-block;
 	
 }
- 
+
 hr {
 	color:#1DA1F2;
 	border: 1px solid ;
